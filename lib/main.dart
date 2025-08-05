@@ -14,6 +14,7 @@ class MyApp extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final loggedIn = ref.watch(authProvider);
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: loggedIn ? const WelcomeScreen() : const LoginPage(),
     );
   }

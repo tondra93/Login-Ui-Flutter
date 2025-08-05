@@ -20,6 +20,8 @@ class LoginPage extends ConsumerWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              // Image.asset('assets/images/logo.png', height: 50),
+              // const SizedBox(height: 32),
               TextField(
                 controller: usernameController,
                 decoration: const InputDecoration(labelText: 'Username'),
